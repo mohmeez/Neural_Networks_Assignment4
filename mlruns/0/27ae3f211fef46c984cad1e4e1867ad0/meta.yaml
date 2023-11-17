@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mohsi/school/fall2023/Intro%20to%20Neural%20Networks/Assignment4/Neural_Networks_Assignment4/mlruns/0/27ae3f211fef46c984cad1e4e1867ad0/artifacts
+end_time: 1700177562491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27ae3f211fef46c984cad1e4e1867ad0
+run_name: burly-gnu-295
+run_uuid: 27ae3f211fef46c984cad1e4e1867ad0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700177538465
+status: 3
+tags: []
+user_id: Mohsi

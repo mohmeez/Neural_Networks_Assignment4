@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mohsi/school/fall2023/Intro%20to%20Neural%20Networks/Assignment4/Neural_Networks_Assignment4/mlruns/0/a27be36a2edc48e2b19da082fe5e2d09/artifacts
+end_time: 1700169825961
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a27be36a2edc48e2b19da082fe5e2d09
+run_name: mercurial-zebra-250
+run_uuid: a27be36a2edc48e2b19da082fe5e2d09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700169816739
+status: 3
+tags: []
+user_id: Mohsi

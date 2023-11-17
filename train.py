@@ -87,20 +87,22 @@ if __name__ == "__main__":
     x_train_norm, y_train_norm = norm_x.norm(x_train), norm_y.norm(y_train)
     x_test_norm, y_test_norm = norm_x.norm(x_test), norm_y.norm(y_test)
 
+
+
     with mlflow.start_run():
         # Initialize linear regression model
         lin_reg = LinearRegression()
 
         # Use mini batches for memory efficiency and faster convergence
-        batch_size = 32
+        batch_size=32
         train_dataset = tf.data.Dataset.from_tensor_slices((x_train_norm, y_train_norm))
         train_dataset = train_dataset.shuffle(buffer_size=x_train.shape[0]).batch(batch_size)
         test_dataset = tf.data.Dataset.from_tensor_slices((x_test_norm, y_test_norm))
         test_dataset = test_dataset.shuffle(buffer_size=x_test.shape[0]).batch(batch_size)
 
         # Set training parameters
-        epochs = 100
-        learning_rate = 0.01
+        epochs=200
+        learning_rate=0.01
         train_losses, test_losses = [], []
 
         # Format training loop

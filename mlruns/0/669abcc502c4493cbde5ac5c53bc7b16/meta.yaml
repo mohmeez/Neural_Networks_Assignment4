@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mohsi/school/fall2023/Intro%20to%20Neural%20Networks/Assignment4/Neural_Networks_Assignment4/mlruns/0/669abcc502c4493cbde5ac5c53bc7b16/artifacts
+end_time: 1700170044868
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 669abcc502c4493cbde5ac5c53bc7b16
+run_name: grandiose-doe-464
+run_uuid: 669abcc502c4493cbde5ac5c53bc7b16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700170021151
+status: 3
+tags: []
+user_id: Mohsi
